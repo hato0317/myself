@@ -179,6 +179,8 @@ h1 {
   border-radius: 12px;
   -webkit-box-shadow: 3px 3px 4px #303030bf;
           box-shadow: 3px 3px 4px #303030bf;
+  content-visibility: auto;
+  contain-intrinsic-size: 350px;
 }
 
 .projects-enter {
