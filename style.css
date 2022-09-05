@@ -396,11 +396,12 @@ footer .footer-right {
 }
 
 footer .footer-logo {
-  margin-bottom: -5px;
+  margin-bottom: -12px;
 }
 
 footer .footer-logo img {
-  width: 70px;
+  width: 50px;
+  opacity: 0.8;
 }
 
 footer .footer-icon {
@@ -414,7 +415,7 @@ footer .link {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 8px;
+  margin-bottom: 11px;
   padding-right: 2px;
 }
 
