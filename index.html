@@ -51,6 +51,10 @@
                     <div class="member design" v-bind:class="{ active: memberFilter === 'paper' }"
                         v-on:click="setMember('paper')">デザイン(紙)</div>
                 </transition>
+                <transition appear name="menu3">
+                    <div class="member movie" v-bind:class="{ active: memberFilter === 'movie' }"
+                        v-on:click="setMember('movie')">動画制作</div>
+                </transition>
             </div>
         </div>
         <!--sp用-->
@@ -101,6 +105,8 @@
                     { title: "", url:"https://raw.githubusercontent.com/hato0317/myself/main/bnr_kato24k.png",image: "bnr_kato24k.png", category: 'design' },
                     { title: "", url:"https://raw.githubusercontent.com/hato0317/myself/main/bnr_noza.png",image: "bnr_noza.png", category: 'design' },
                     { title: "", url:"https://raw.githubusercontent.com/hato0317/myself/main/bnr_jtu.png",image: "bnr_jtu.png", category: 'design' },
+                    { title: "", url:"https://drive.google.com/file/d/1mWLzjV8Yyp4Ose1EOuby4gfSeO9Hdrf9/view?usp=sharing",image: "https://raw.githubusercontent.com/hato0317/myself/main/movie1.png", category: 'movie' },
+                    { title: "", url:"https://drive.google.com/file/d/1NFntVha5y5N2JX7FmPkTnsY0x7oxkAF1/view?usp=sharing",image: "https://raw.githubusercontent.com/hato0317/myself/main/movie2.png", category: 'movie' },
                 ]
             },
             methods: {
